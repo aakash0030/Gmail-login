@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fff;
+}
+.input-box{
+    position: relative;
+    margin-bottom: 15px;
+}
+.input{
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    border-radius: 4px;
+    color: #202124;
+    border: 1px solid #dadce0;
+    padding: 13px 15px;
+    transition: .25s;
+}
+
+.form-container{
+    width: 30vw;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.input:focus{
+    outline: none;
+    border: 2px solid #1a73e8;
+}
+
+.input-label{
+    position: absolute;
+    color: #80868b;
+    font-size: 16px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    left: 8px;
+    top: 13px;
+    padding: 0 8px;
+    transition: 0.25s;
+}
+
+.input:focus + .input-label
+{
+    color: #1a73e8;
+    top: -10px;
+    background-color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+img{
+    height: 30px;
+    width: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container{
+    border: 1.5px solid rgba(206, 202, 202, 0.747);
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    width: 35%;
+    height: auto;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.788);
+}
+
+.container a{
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 15px;
+    font-weight: 500;
+    float: left;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.para{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.514);
+    float: left;
+}
+
+.learn{
+    padding-top: 0;
+}
+.btn{
+    float: right;
+    margin-bottom: 30px;
+    width: 90px;
+}
+.foot{
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
